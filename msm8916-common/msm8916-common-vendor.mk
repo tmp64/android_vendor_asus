@@ -21,27 +21,27 @@ LOCAL_PATH := $(call my-dir)
 DEVICE_PACKAGE_OVERLAYS += vendor/asus/msm8916-common/overlay
 
 PRODUCT_COPY_FILES += \
-    vendor/asus/msm8916-common/proprietary/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd\
-    vendor/asus/msm8916-common/proprietary/bin/btnvtool:$(TARGET_COPY_OUT_VENDOR)/bin/btnvtool\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd\
     vendor/asus/msm8916-common/proprietary/bin/cnd:system/bin/cnd\
     vendor/asus/msm8916-common/proprietary/bin/dpmd:system/bin/dpmd\
     vendor/asus/msm8916-common/proprietary/bin/garden_app:system/bin/garden_app\
     vendor/asus/msm8916-common/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon\
-    vendor/asus/msm8916-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init\
-    vendor/asus/msm8916-common/proprietary/bin/imscmservice:system/bin/imscmservice\
-    vendor/asus/msm8916-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon\
-    vendor/asus/msm8916-common/proprietary/bin/imsqmidaemon:system/bin/imsqmidaemon\
-    vendor/asus/msm8916-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon\
-    vendor/asus/msm8916-common/proprietary/bin/irsc_util:system/bin/irsc_util\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/imscmservice:system/vendor/bin/imscmservice\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/imsdatadaemon:system/vendor/bin/imsdatadaemon\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util\
     vendor/asus/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher\
-    vendor/asus/msm8916-common/proprietary/bin/netmgrd:system/bin/netmgrd\
-    vendor/asus/msm8916-common/proprietary/bin/qmuxd:system/bin/qmuxd\
-    vendor/asus/msm8916-common/proprietary/bin/qseecomd:system/bin/qseecomd\
-    vendor/asus/msm8916-common/proprietary/bin/radish:system/bin/radish\
-    vendor/asus/msm8916-common/proprietary/bin/rfs_access:system/bin/rfs_access\
-    vendor/asus/msm8916-common/proprietary/bin/rmt_storage:system/bin/rmt_storage\
-    vendor/asus/msm8916-common/proprietary/bin/time_daemon:system/bin/time_daemon\
-    vendor/asus/msm8916-common/proprietary/bin/vm_bms:system/bin/vm_bms\
+    vendor/asus/msm8916-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/qmuxd:system/vendor/bin/qmuxd\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/qseecomd:system/vendor/bin/qseecomd\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/radish:system/vendor/bin/radish\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/rfs_access:system/vendor/bin/rfs_access\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/rmt_storage:system/vendor/bin/rmt_storage\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/vm_bms:system/vendor/bin/vm_bms\
     vendor/asus/msm8916-common/proprietary/etc/audio_effects.conf:system/etc/audio_effects.conf\
     vendor/asus/msm8916-common/proprietary/etc/bspcapability.xml:system/etc/bspcapability.xml\
     vendor/asus/msm8916-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml\

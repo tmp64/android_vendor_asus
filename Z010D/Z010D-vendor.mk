@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z010D/proprietary/bin/LaserFocus_on:system/bin/LaserFocus_on\
     vendor/asus/Z010D/proprietary/bin/LaserFocus_Status:system/bin/LaserFocus_Status\
     vendor/asus/Z010D/proprietary/bin/LaserOn:system/bin/LaserOn\
-    vendor/asus/Z010D/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon\
+    vendor/asus/Z010D/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_afCali:system/bin/ZC550KL_afCali\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_OV5670_DUT_CONFIG:system/bin/ZC550KL_OV5670_DUT_CONFIG\
     vendor/asus/Z010D/proprietary/bin/ZC550KL_T4K37_DUT_CONFIG:system/bin/ZC550KL_T4K37_DUT_CONFIG
