@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/msm8916-common/proprietary/vendor/bin/imsqmidaemon:system/vendor/bin/imsqmidaemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/ims_rtp_daemon:system/vendor/bin/ims_rtp_daemon\
     vendor/asus/msm8916-common/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util\
+    vendor/asus/msm8916-common/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/asus/msm8916-common/proprietary/bin/loc_launcher:system/bin/loc_launcher\
     vendor/asus/msm8916-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance\
     vendor/asus/msm8916-common/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd\
