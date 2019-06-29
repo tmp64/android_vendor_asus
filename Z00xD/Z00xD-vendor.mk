@@ -37,7 +37,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00xD/proprietary/bin/LaserOn:system/bin/LaserOn \
     vendor/asus/Z00xD/proprietary/bin/LaserFocus_Status:system/bin/LaserFocus_Status \
     vendor/asus/Z00xD/proprietary/bin/ZE500KG_afCali:system/bin/ZE500KG_afCali \
-    vendor/asus/Z00xD/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon
+    vendor/asus/Z00xD/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon
 
 # Camera
 PRODUCT_COPY_FILES += \
