@@ -461,6 +461,24 @@ PRODUCT_COPY_FILES += \
     vendor/asus/Z00xD/proprietary/vendor/lib/libts_detected_face_hal.so:system/vendor/lib/libts_detected_face_hal.so\
     vendor/asus/Z00xD/proprietary/vendor/lib/libts_face_beautify_hal.so:system/vendor/lib/libts_face_beautify_hal.so
 
+# Firmware
+PRODUCT_COPY_FILES += \
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.b00:system/etc/firmware/venus.b00\
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.b01:system/etc/firmware/venus.b01\
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02\
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03\
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04\
+    vendor/asus/Z00xD/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b06:system/etc/firmware/wcnss.b06\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b09:system/etc/firmware/wcnss.b09\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b10:system/etc/firmware/wcnss.b10\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.b11:system/etc/firmware/wcnss.b11\
+    vendor/asus/Z00xD/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt
+
 # Sensor
 PRODUCT_COPY_FILES += \
     vendor/asus/Z00xD/proprietary/bin/akmd09911:system/bin/akmd09911\
