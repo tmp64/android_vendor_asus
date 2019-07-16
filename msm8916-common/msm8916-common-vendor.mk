@@ -329,7 +329,6 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     imscmlibrary \
-    shutdownlistener \
     TimeService \
     CNEService \
     qcrilmsgtunnel \
